@@ -1,0 +1,7 @@
+<Solution>
+  <Folder Name="/InheritanceTasks.Class/">
+    <Project Path="InheritanceTasks.Class/InheritanceTasks.csproj" />
+  </Folder>
+  <Project Path="InheritanceTasks.console/InheritanceTasks.console.csproj" />
+  <Project Path="InheritanceTasks.Tests/InheritanceTasks.Tests.csproj" />
+</Solution>
