@@ -2,7 +2,7 @@ namespace InheritanceTasks;
 
 public class Student: Person
 {
-    public string schoollYear;
+    public string schoollYear{ get; set; }
 
     public Student(string First, string Last, DateTime DateOfBirth) : base(First, Last, DateOfBirth)
     {
@@ -13,5 +13,10 @@ public class Student: Person
     {
         return age - 4;
     }
-    
+
+    public override string ScreenName()
+    {
+        string s = base.ScreenName();
+        return $"{s} and school year is {schoollYear}";
+    }
 }

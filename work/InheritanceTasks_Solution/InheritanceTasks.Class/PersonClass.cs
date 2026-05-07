@@ -43,12 +43,9 @@ public class Person
         }
     }
 
-    public string ScreenName
+    public virtual string ScreenName()
     {
-        get
-        {
-            return $"{firstName} {lastName} born on {dateOfBirth}";
-        }
+        return $"{firstName} {lastName} born on {dateOfBirth}";
     }
 
     public Person(string First, string Last, string Email, DateTime DateOfBirth)
@@ -59,6 +56,8 @@ public class Person
         dateOfBirth = DateOfBirth;
     }
     public Person(string First, string Last, DateTime DateOfBirth): this(First, Last, "", DateOfBirth){}
+
+  
 
     public int CalulateAge()
     {
@@ -124,4 +123,6 @@ public class Person
             return false;
         }
     }
+
+    
 }
