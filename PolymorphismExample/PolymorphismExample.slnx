@@ -1,4 +1,8 @@
 <Solution>
+  <Project Path="../InheritanceTasks/InheritanceTasks.Console/InheritanceTasks.Console.csproj" />
+  <Project Path="../InheritanceTasks/InheritanceTasks.csproj" />
+  <Project Path="../InheritanceTasks/InheritanceTasks.Tests/InheritanceTasks.Tests.csproj" />
+  <Project Path="../Inheritance_Tasks/Inheritance_Tasks/Inheritance_Tasks.csproj" />
   <Project Path="PolymorphismExample.App/PolymorphismExample.App.csproj" />
   <Project Path="PolymorphismExample.Lib/PolymorphismExample.Lib.csproj" />
 </Solution>

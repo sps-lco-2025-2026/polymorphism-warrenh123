@@ -8,7 +8,7 @@ namespace VirtualNewOverride
     {
         static void Main(string[] args)
         {
-           
+            
         }
 
        
